@@ -5,7 +5,7 @@ const theme = createMuiTheme({
     typography : {
         useNextVariants : true
     },
-    palete : {
+    palette : {
         primary : {
             main : '#10A75F'
         },

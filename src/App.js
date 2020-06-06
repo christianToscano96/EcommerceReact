@@ -8,6 +8,7 @@ import Grid from '@material-ui/core/Grid'
 //componentes
 import ListInmuebles from './components/views/ListInmuebles';
 import Navbar from './components/layout/Navbar';
+import LoginUser from './components/security/LoginUser';
 
 import './App.css';
 
@@ -21,6 +22,7 @@ function App() {
         <Grid container>
           <Switch>
             <Route path="/" exact component={ListInmuebles}></Route>
+            <Route path="/sing-up" exact component={LoginUser}></Route>
 
           </Switch>
         </Grid>
