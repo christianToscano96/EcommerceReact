@@ -73,7 +73,6 @@ function LoginUser() {
                                     <TextField type="password" name="password" value={user.password} onChange={handleInputChange} fullWidth label="Enter your password"/>
                                 </Grid>
                             </Grid>
-
                             <Grid container justify="center">
                                 <Grid item md={6} xs={12}>
                                     <Button type="submit" variant="contained" fullWidth size="large" color="primary" style={style.submit}>
